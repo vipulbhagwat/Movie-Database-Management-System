@@ -1,0 +1,144 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F5F5F5;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("http://localhost:3000/images/marineDrive.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 800px;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.frame{
+    position: absolute;
+    top:15%;
+    left: 38%;
+    height: max-content;
+    width: max-content;
+    box-shadow: 1px 1px 50px black,
+    -1px -1px 50px black,
+    -1px 1px 50px black,
+    1px -1px 50px black;
+    border-radius: 5px;
+}
+
+
+.heading{
+    margin: 5px;
+    padding-left: 45px;
+    padding-top: 10px;
+    text-align: left;
+    padding-bottom: 0;
+    font-family: Chandas;
+    font-size: 22px;
+    color: #F5F5F5;
+    text-shadow: 1px 1px 1px black,
+    -1px -1px 1px black,
+    -1px 1px 1px black,
+    1px -1px 1px black;
+}
+
+.input{
+    margin-left: 50px;
+    margin-bottom: 30px;
+    padding: 15px;
+    font-size: 20px;
+    width: 40%;
+    border: 0px;
+    border-radius: 5px;
+}
+
+input[type=file]{
+    background-color: #F5F5F5;
+    padding:10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    color: black;
+    margin-top: 0px;
+    margin-left: 50px;
+    width: 64%;
+
+}
+
+#submitPoster{
+    background-color: #2f477a;
+    padding: 15px;
+    border: 0;
+    border-radius: 5px;
+    color: #F5F5F5;
+}
+
+.mainSubmit{
+    height: 50px;
+    width: 87%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-top: 5px;
+    border: 0px;
+    background-color: #17833F;
+    color: azure;
+}
+
+.advanceSubmit{
+    height: 50px;
+    width: 87%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    border: 0px;
+    background-color: #2f477a;
+    color: azure;
+}
+
+input[type=email]:hover, input[type=password]:hover, input[type=text]:hover, input[type=file]:hover,input[type=number]:hover,input[type=date]:hover{
+    box-shadow: black 10px 10px 30px;
+    transition: box-shadow ease-in-out 0.3s;
+}
+
+.mainSubmit:hover{
+    box-shadow: black 10px 10px 30px;
+    background-color: #45a049;
+    transition: box-shadow ease-in-out 0.3s,background-color ease-in-out 0.3s;
+}
+
+.advanceSubmit:hover, #submitPoster:hover{
+    box-shadow: black 10px 10px 30px;
+    background-color: #3b5998;
+    transition: box-shadow ease-in-out 0.3s,background-color ease-in-out 0.3s;
+}
+
+#logOut{
+    position: absolute;
+    top: 2%;
+    left: 85%;
+    padding-top: 2px;
+    padding-right:5px;
+    padding-left: 5px;
+    background-color: #e00d03;
+    width: 100px;
+    height: max-content;
+    font-size: 20px;
+    color: #F5F5F5;
+    border: 0;
+    border-radius: 5px;
+    font-family: Chandas;
+}
+#logOut:hover{
+    box-shadow: 5px 5px 85px black;
+    background-color: #ce0504;
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}

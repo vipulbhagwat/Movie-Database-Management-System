@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>User register</title>
+	<link rel="stylesheet" type="text/css" href="http://localhost:3000/css/userRegisterCSS.css">
+</head>
+
+<body>
+
+	<div>
+		<form action="http://localhost:3000/userDatabase/userAdd" method="post">
+			<p class="heading">Sign Up</p>
+			<input name="userName" type="text"  id="name" placeholder="Full name"><br><br>
+			<input name="userEmail" type="email" id="email" placeholder="Email"><br><br>
+			<input name="userPassword" type="Password" id="password" placeholder="Password"><br><br>
+			<input name="userConfirmPassword" type="Password" id="cpassword" placeholder="Confirm Password"><br><br>
+			<input type="submit" value="Sign up"><br>
+			<p class="text">Already have an account? <u><a href="http://localhost:3000/goToUserLogin">Login here.</a></u></p>
+
+
+		</form>
+	</div>
+</body>
+</html>

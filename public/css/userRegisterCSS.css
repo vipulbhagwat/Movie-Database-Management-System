@@ -1,0 +1,93 @@
+body {
+    background: url("http://localhost:3000/images/ironman.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+div {
+  background-clip: padding-box;
+  box-shadow: 10px 10px 85px rgba(0,0,0,1);
+  border-radius: 5px;
+  padding: 50px;
+  padding-left: 120px;
+  padding-right: 120px;
+  position: fixed;
+  top: 7%;
+  left: 10%;
+}
+
+input[type=text], input[type=email], input[type=Password]{
+  width:100%;
+  padding: 15px;
+  margin: 1px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+    font-size: 20px;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 1px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=email]:hover, input[type=text]:hover, input[type=Password]:hover{
+    box-shadow: 3px 3px 3px dimgray,
+    -3px 3px 3px dimgray,
+    3px -3px 3px dimgray,
+    -3px -3px 3px dimgray;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+input[type=submit]:hover {
+  background-color: #17833F;
+  box-shadow: 3px 3px 3px dimgray,
+            -3px 3px 3px dimgray,
+            3px -3px 3px dimgray,
+            -3px -3px 3px dimgray;
+  transition: box-shadow 0.3s ease-in-out,background-color 0.3s ease;
+}
+
+select:hover {
+     box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+     transition: box-shadow 0.3s ease-in-out;
+}
+
+.heading {
+  text-align: center;
+  font-family: "Arial";
+  font-size: 50px;
+  color: white;
+    text-shadow: 1px 1px 1px dimgray,
+    -1px 1px 1px dimgray,
+    1px -1px 1px dimgray,
+    -1px -1px 1px dimgray;
+  margin-top: 0%
+}
+
+.text{
+  font-family: "Arial";
+  font-size: 20px;
+  margin-top: 10px;
+    color: #F5F5F5;
+}
+
+a:link, a:visited{
+  color:white;
+}
+
+a:hover{
+  color:lightsteelblue;
+  text-shadow: 15px 15px 5px rgba(0,0,0,0.3);
+  transition: text-shadow 0.3s ease-in-out
+}
+
